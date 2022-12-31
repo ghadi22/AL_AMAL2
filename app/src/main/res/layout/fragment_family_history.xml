@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FamilyHistoryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/person" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="My profile"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="35dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="(the patient)"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="35dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/ltadir"
+                                android:text="Name : "
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/ltadir"
+                                android:text="Amal"
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textSize="15sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="35dp"
+                                android:fontFamily="@font/ltadir"
+                                android:text=" Age: "
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/ltadir"
+                                android:text="32"
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="35dp"
+                                android:fontFamily="@font/ltadir"
+                                android:text="No: "
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/ltadir"
+                                android:text="876543"
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:backgroundTint="#00cdc1ed"
+                        android:src="@drawable/images__1_" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:fontFamily="@font/arimo_bold"
+                android:padding="10dp"
+                android:text="Family History"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00ffffff"
+                android:gravity="end"
+                app:tint="@color/black"
+                android:src="@drawable/images__1_"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#00ffffff"
+                android:gravity="end"
+                android:src="@drawable/plus" />
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo"
+                    android:layout_marginHorizontal="20dp"
+                    android:text="Degree of Kinship"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="50dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="The Mother"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="50dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="The Father"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:button="@drawable/check_true"
+                            android:checked="true"
+                            android:text="Mother" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:button="@drawable/check_true"
+                            android:checked="true"
+                            android:text="Sister" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:button="@drawable/check_true"
+                            android:checked="true"
+                            android:text="Aunt" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:button="@drawable/check_true"
+                            android:checked="true"
+                            android:text="cousin (aunt)" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:button="@drawable/check_true"
+                            android:checked="true"
+                            android:text="Grandma" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:button="@drawable/check_true"
+                            android:checked="true"
+                            android:text="Maternal aunt" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:button="@drawable/check_true"
+                            android:checked="true"
+                            android:text="Maternal aunt (aunt)" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:button="@drawable/check_box"
+                            android:checked="true"
+                            android:text=" Cousin (uncle)   " />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:button="@drawable/check_box"
+                            android:checked="true"
+                            android:text="Aunt" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:button="@drawable/check_box"
+                            android:checked="true"
+                            android:text="Grandma" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:button="@drawable/check_box"
+                            android:checked="true"
+                            android:text="cousin (aunt)" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:button="@drawable/check_true"
+                            android:checked="true"
+                            android:text=" Cousin (uncle)   " />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:button="@drawable/check_true"
+                            android:checked="true"
+                            android:text="(Paternal aunt (aunt)" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:button="@drawable/check_true"
+                            android:checked="true"
+                            android:text=" Paternal aunt (uncle)" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo_bold"
+                    android:text="Breast cancer at an age"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:button="@drawable/check_true"
+                        android:checked="true"
+                        android:text="  Before 40" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginHorizontal="30dp"
+                        android:button="@drawable/check_true"
+                        android:checked="true"
+                        android:text="After 40" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo_bold"
+                    android:text="What stage have you reached?"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:button="@drawable/check_true"
+                        android:checked="true"
+                        android:text="1" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:button="@drawable/check_true"
+                        android:checked="true"
+                        android:text="2" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:button="@drawable/check_true"
+                        android:checked="true"
+                        android:text="3" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:button="@drawable/check_true"
+                        android:checked="true"
+                        android:text="4" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo_bold"
+                    android:text="Has anyone been injured?"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:button="@drawable/check_true"
+                    android:checked="true"
+                    android:text="Ovarian cancer" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:button="@drawable/check_true"
+                        android:checked="true"
+                        android:text="Else" />
+
+                    <EditText
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_text" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo_bold"
+                    android:text="Cancer incidence in"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:button="@drawable/check_true"
+                    android:checked="true"
+                    android:text="The breast" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:button="@drawable/check_true"
+                    android:checked="true"
+                    android:text="Breasts" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo_bold"
+                    android:text="Has a male relative had breast cancer?"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:button="@drawable/check_true"
+                    android:checked="true"
+                    android:text="yes" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:button="@drawable/check_true"
+                    android:checked="true"
+                    android:text="No" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_marginHorizontal="20dp"
+                        android:text="Relative relation" />
+
+                    <EditText
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_text" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

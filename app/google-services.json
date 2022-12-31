@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "102077267516",
+    "firebase_url": "https://cancer-project-ec0eb-default-rtdb.firebaseio.com",
+    "project_id": "cancer-project-ec0eb",
+    "storage_bucket": "cancer-project-ec0eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102077267516:android:cada0592f76c573c16cd39",
+        "android_client_info": {
+          "package_name": "com.example.al_amal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102077267516-66fur54v5dfpg1qqil4g69ucdiv723hb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChSz56cHEactoHKsRna9OqemXxIbCFIHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102077267516-66fur54v5dfpg1qqil4g69ucdiv723hb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

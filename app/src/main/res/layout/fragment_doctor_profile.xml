@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorProfileFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/background"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="123dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/dr" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="50dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="30dp"
+                    android:text="My profile"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/cairo_semibold"
+                    android:layout_gravity="center"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:text="(The doctor)"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/cairo_semibold"
+                    android:layout_gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:text="Name : "
+                        android:textSize="10sp"
+                        android:fontFamily="@font/cairo_semibold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ali"
+                        android:textSize="10sp"
+                        android:fontFamily="@font/cairo_semibold"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:text="Age :"
+                        android:textSize="10sp"
+                        android:fontFamily="@font/cairo_semibold"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="35"
+                        android:textSize="10sp"
+                        android:fontFamily="@font/cairo_semibold"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/poppins_medium"
+            android:paddingStart="10dp"
+            android:text="Personal Information"
+            android:textColor="@color/darkpurple"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/profile_btn_bg"
+            android:hint="ID | 09876543234"
+            android:inputType="number"
+            android:fontFamily="@font/poppins_medium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/profile_btn_bg"
+            android:hint="Account | ALI35-0"
+            android:inputType="none"
+            android:fontFamily="@font/poppins_medium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/profile_btn_bg"
+            android:hint="Gender | Female/ Male"
+            android:inputType="number"
+            android:fontFamily="@font/poppins_medium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/profile_btn_bg"
+            android:hint="Birth | 00-00-0000"
+            android:inputType="number"
+            android:fontFamily="@font/poppins_medium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/profile_btn_bg"
+            android:hint="Specialization | Oncology"
+            android:inputType="text"
+            android:fontFamily="@font/poppins_medium"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textColor="#8a8a8a"
+            android:background="@drawable/login_bg"
+            android:layout_gravity="center"
+            android:text="Log Out"/>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
